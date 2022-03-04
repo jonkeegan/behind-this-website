@@ -1,7 +1,7 @@
 ### Who’s behind this website? A Checklist. 
 
 By Prianjana Bengani ([@acookiecrumbles](https://twitter.com/acookiecrumbles)) and Jon Keegan ([@jonkeegan](https://twitter.com/jonkeegan))
-IRE NICAR Conference - March 2022
+IRE NICAR Conference - March 4, 2022 - [Slides](https://docs.google.com/presentation/d/1tRae65Eln072zLbbdIPyeJxt6I_JflRmEYH8cp4Xc84/edit?usp=sharing)
 
 #### What is this?
 
@@ -9,7 +9,7 @@ This checklist is meant to as a reporting tool to help journalists and researche
 
 Following this checklist does not guarantee that you can unmask the owner of a website that does not want to be found, but it can help surface crucial clues and connections that can act as leads for further reporting. 
 
-🌟 Strong recommendation: while running through this checklist, create a data diary — it can be a TextEdit doc, a Google Doc, just the Notes app, whatever. It is important to be able to re-trace your steps. 
+🌟 Strong recommendation: while running through this checklist, create a data diary — it can be a TextEdit doc, a Google Doc, just the Notes app, whatever. It is important to be able to retrace your steps. 
 
 #### Site Content
 
@@ -20,7 +20,7 @@ Following this checklist does not guarantee that you can unmask the owner of a w
 
 - [ ] 📫 Are there any e-mail addresses or contact information? 
   - If there are e-mail addresses, do those share the domain with the website?
-  - Does the email show up in [haveibeenpwned.com](haveibeenpwned.com)?
+  - Does the email show up in [haveibeenpwned.com](https://haveibeenpwned.com/)?
   - Check to see if there is a Gravatar associated with that address: 
     - https://en.gravatar.com/site/check/XXXXX@gmail.com
 - [ ] 🕑 What’s the server’s local time?
@@ -136,6 +136,9 @@ https://datajournalism.com/read/handbook/verification-3
 - [Dnslytics](https://dnslytics.com/): offers a range of tools including reverse Analytics and reverse DNS lookups, as well as WHOIS data. Freemium. 
 - [RiskIQ](https://www.riskiq.com/): a ‘threat intelligence’ tool that allows you to get reverse IP, reverse analytics, WHOIS, SSL, subdomains, etc. 
 - [Whoxy](https://www.whoxy.com/): a tool that lets you see historical WHOIS registrations. Free. 
+- The Internet Archive [browser extention](chrome-extension://fpnmgdkabkmnadcjpehmlllkndpkmiak/about.html).
+
+
+###### Social Media Accounts 
 - [Sensity AI](https://sensity.ai/deepfakes-detection/): check if an image is GAN-generated or not. Freemium. 
 - [whotwi.com](https://en.whotwi.com/): create a profile-at-a-glance for any account on Twitter. Free. 
-- The Internet Archive [browser extention](chrome-extension://fpnmgdkabkmnadcjpehmlllkndpkmiak/about.html).
