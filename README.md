@@ -5,7 +5,7 @@ IRE NICAR Conference - March 4, 2022 - [Slides](https://docs.google.com/presenta
 
 #### What is this?
 
-This checklist is meant to as a reporting tool to help journalists and researchers when trying to find out who published a website. This is meant to be used in conjunction with offline reporting techniques. 
+This checklist is meant to be used as a reporting tool to help journalists and researchers when trying to find out who published a website. This is meant to be used in conjunction with offline reporting techniques. 
 
 Following this checklist does not guarantee that you can unmask the owner of a website that does not want to be found, but it can help surface crucial clues and connections that can act as leads for further reporting. 
 
@@ -95,7 +95,7 @@ Don't forget to check to see if the site has accounts on Youtube, Instagram, Red
 
 #### Infrastructure 
 - [ ] 🗄 Have you archived the website? (You always should!)
-  - you can do this on archive.org or use their [browser extention](chrome-extension://fpnmgdkabkmnadcjpehmlllkndpkmiak/about.html).
+  - you can do this on archive.org or use their [browser extension](chrome-extension://fpnmgdkabkmnadcjpehmlllkndpkmiak/about.html).
   - you can grab the whole website on Terminal with `wget`:
    `wget -mpEk <yourwebsite.com>`
 
@@ -136,7 +136,7 @@ https://datajournalism.com/read/handbook/verification-3
 - [Dnslytics](https://dnslytics.com/): offers a range of tools including reverse Analytics and reverse DNS lookups, as well as WHOIS data. Freemium. 
 - [RiskIQ](https://www.riskiq.com/): a ‘threat intelligence’ tool that allows you to get reverse IP, reverse analytics, WHOIS, SSL, subdomains, etc. 
 - [Whoxy](https://www.whoxy.com/): a tool that lets you see historical WHOIS registrations. Free. 
-- The Internet Archive [browser extention](chrome-extension://fpnmgdkabkmnadcjpehmlllkndpkmiak/about.html).
+- The Internet Archive [browser extension](chrome-extension://fpnmgdkabkmnadcjpehmlllkndpkmiak/about.html).
 
 
 ###### Social Media Accounts 
