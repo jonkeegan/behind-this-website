@@ -42,13 +42,13 @@ Following this checklist does not guarantee that you can unmask the owner of a w
 - [ ] 🔗 What domains does the website link to most? (Requires scraping)
 - [ ] ❤️ Who links to the domain most often? 
     - Google search operator: "link:yourwebsite.com"
-    - Check backlinks on [ahrefs.com](ahrefs.com) 💵
+    - Check backlinks on [ahrefs.com](https://ahrefs.com) 💵
 - [ ]  Do the links have UTM codes? 
 ​
 ##### Photos, images and documents
 - [ ] 📸 Are there author photos? 
   - Use reverse image search to see if the same images appear elsewhere
-  - Check [sensity.ai](sensity.ai) to see if the image is GAN-generated 
+  - Check [sensity.ai](https://sensity.ai) to see if the image is GAN-generated 
   - Read more about spotting GAN-generated images [here](https://www.theguardian.com/technology/2020/jan/13/what-are-deepfakes-and-how-can-you-spot-them).  
 - [ ] 🔎 Do the images have EXIF data? 
     - Instructions [here](https://www.howtogeek.com/289712/how-to-see-an-images-exif-data-in-windows-and-macos/#:~:text=Viewing%20EXIF%20data%20in%20Windows,the%20photo%20was%20taken%20with.).
