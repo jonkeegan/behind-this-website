@@ -1,7 +1,11 @@
 ### Who’s behind this website? A Checklist. 
 
 By Prianjana Bengani ([@acookiecrumbles](https://twitter.com/acookiecrumbles)) and Jon Keegan ([@jonkeegan](https://twitter.com/jonkeegan))
-IRE NICAR Conference - March 4, 2022 - [Slides](https://docs.google.com/presentation/d/1tRae65Eln072zLbbdIPyeJxt6I_JflRmEYH8cp4Xc84/edit?usp=sharing)
+IRE NICAR Conference - March 4, 2022
+Slides: [English](https://docs.google.com/presentation/d/1tRae65Eln072zLbbdIPyeJxt6I_JflRmEYH8cp4Xc84/edit?usp=sharing) | [Russian](https://docs.google.com/presentation/d/1TxynZrKKrYMvPFk3oxYMNRkx8fp0Gs_AhQufuVkKOOo/edit?usp=sharing) 
+
+*Thank you to Svetlana Borodina at Harriman Institute for the Russian translation!*
+
 
 #### What is this?
 
