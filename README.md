@@ -46,7 +46,7 @@ Following this checklist does not guarantee that you can unmask the owner of a w
 - [ ] 🔗 What domains does the website link to most? (Requires scraping)
 - [ ] ❤️ Who links to the domain most often? 
     - Google search operator: "link:yourwebsite.com"
-    - Check backlinks on [ahrefs.com](https://ahrefs.com/backlink-checker) ofr free 💵
+    - Check backlinks on [ahrefs.com](https://ahrefs.com/backlink-checker) for free 💵
 - [ ]  Do the links have UTM codes? 
 ​
 ##### Photos, images and documents
