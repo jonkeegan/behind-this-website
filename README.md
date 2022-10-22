@@ -1,7 +1,7 @@
 ### Who’s behind this website? A Checklist. 
 
-By Priyanjana Bengani ([@acookiecrumbles](https://twitter.com/acookiecrumbles)) and Jon Keegan ([@jonkeegan](https://twitter.com/jonkeegan))
-IRE NICAR Conference - March 4, 2022
+By Prianjana Bengani ([@acookiecrumbles](https://twitter.com/acookiecrumbles)) and Jon Keegan ([@jonkeegan](https://twitter.com/jonkeegan))
+Oringinally presented at IRE NICAR Conference - March 4, 2022
 Slides: [English](https://docs.google.com/presentation/d/1tRae65Eln072zLbbdIPyeJxt6I_JflRmEYH8cp4Xc84/edit?usp=sharing) | [Russian](https://docs.google.com/presentation/d/1TxynZrKKrYMvPFk3oxYMNRkx8fp0Gs_AhQufuVkKOOo/edit?usp=sharing) 
 
 *Thank you to Svetlana Borodina at Harriman Institute for the Russian translation!*
@@ -46,7 +46,7 @@ Following this checklist does not guarantee that you can unmask the owner of a w
 - [ ] 🔗 What domains does the website link to most? (Requires scraping)
 - [ ] ❤️ Who links to the domain most often? 
     - Google search operator: "link:yourwebsite.com"
-    - Check backlinks on [ahrefs.com](https://ahrefs.com) 💵
+    - Check backlinks on [ahrefs.com](https://ahrefs.com/backlink-checker) ofr free 💵
 - [ ]  Do the links have UTM codes? 
 ​
 ##### Photos, images and documents
