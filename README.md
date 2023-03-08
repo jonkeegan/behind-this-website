@@ -63,6 +63,8 @@ Following this checklist does not guarantee that you can unmask the owner of a w
 - [ ] 📄 Are there PDFs hosted on the site? 
   - On a search engine, "filetype:pdf site:<yourwebsite.com>"
   - If you find some, check the metadata with "Get Info" in your PDF viewer.
+- [ ] 🕛 Are there old archived images on [Wayback Machine](https://web.archive.org)?
+  - Using the "URLs" page may find deleted images, filter on "image/" to narrow the search.
 ​
 #### Social Media
 
@@ -122,7 +124,8 @@ Don't forget to check to see if the site has accounts on Youtube, Instagram, Red
 - [ ] ⌛️ Has the site changed over time?
   - Look at [archive.org](https://archive.org/) to see whether the domain shifted tremendously — and if so when. 
 - [ ] 🗑 Did the earlier version of the site have more information? 
-  - People can remove info when a site's been up for a while. 
+  - People can remove info when a site's been up for a while.
+  - The "Sitemap" page is particularly useful in finding deleted pages under a domain.
 
 #### Resources & Tools
 
