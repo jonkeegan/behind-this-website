@@ -140,7 +140,7 @@ https://datajournalism.com/read/handbook/verification-3
 - [Blacklight](https://themarkup.org/blacklight): The Markup's real-time website privacy inspector.
 - [builtwith.com](https://builtwith.com): gives you the infrastructure of the site, including IP addresses, analytics codes, tech stack, etc. Freemium model. 
 - [DNSDBScout]((https://www.farsightsecurity.com/tools/dnsdb-scout/)): allows you to search and ‘flexible search’ for passive dns lookups including IP <-> domain mapping. 
-- [Dnslytics](https://dnslytics.com/): offers a range of tools including reverse Analytics and reverse DNS lookups, as well as WHOIS data. Freemium. 
+- [Dnslytics](https://dnslytics.com/): offers a range of tools including [reverse Analytics](https://dnslytics.com/reverse-analytics) and [reverse DNS lookups](https://dnslytics.com/reverse-ip), as well as [WHOIS data](https://dnslytics.com/whois-lookup). Freemium. 
 - [RiskIQ](https://www.riskiq.com/): a ‘threat intelligence’ tool that allows you to get reverse IP, reverse analytics, WHOIS, SSL, subdomains, etc. 
 - [Whoxy](https://www.whoxy.com/): a tool that lets you see historical WHOIS registrations. Free. 
 - The Internet Archive [browser extension](chrome-extension://fpnmgdkabkmnadcjpehmlllkndpkmiak/about.html).
