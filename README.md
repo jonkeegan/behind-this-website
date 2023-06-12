@@ -119,6 +119,8 @@ Don't forget to check to see if the site has accounts on Youtube, Instagram, Red
   - Use tools like [builtwith](https://builtwith.com), [RiskIQ](https://www.riskiq.com/), or [Dnslytics](https://dnslytics.com/) to see if other domains share the same ID. 
 - [ ] Are there any relevant subdomains? 
   - Use Farsight Security [DNSDBScout](https://www.farsightsecurity.com/tools/dnsdb-scout/) Flexible.
+  - Use [Virustotal](https://www.virustotal.com/gui/url/) to verify site relations like subodmains, given files and favicons
+  - Use [Alienvault OTX](https://otx.alienvault.com/) to verfiey any related subdomain to a given domain 
 - [ ] 📜 Are there historic WHOIS records? 
   - Look at [Whoxy](https://www.whoxy.com/) or [RiskIQ](https://www.riskiq.com/). 
 - [ ] ⌛️ Has the site changed over time?
@@ -126,6 +128,9 @@ Don't forget to check to see if the site has accounts on Youtube, Instagram, Red
 - [ ] 🗑 Did the earlier version of the site have more information? 
   - People can remove info when a site's been up for a while.
   - The "Sitemap" page is particularly useful in finding deleted pages under a domain.
+- [ ] 📋 Analysis on the site cerfificate 
+  - Analyze any interesting information related to the site certificate like CN and Matching Identities using [crt.sh](https://crt.sh/)
+  - Use Censys for analyze the JARM fingerprint to detect any possible related server which exposes the site [Censys](https://search.censys.io/search/language?resource=hosts&q=services.jarm.fingerprint%3A&sort=RELEVANCE&per_page=25&virtual_hosts=INCLUDE)
 
 #### Resources & Tools
 
