@@ -128,9 +128,9 @@ Don't forget to check to see if the site has accounts on Youtube, Instagram, Red
 - [ ] 🗑 Did the earlier version of the site have more information? 
   - People can remove info when a site's been up for a while.
   - The "Sitemap" page is particularly useful in finding deleted pages under a domain.
-- [ ] 📋 Analysis on the site cerfificate 
-  - Analyze any interesting information related to the site certificate like CN and Matching Identities using [crt.sh](https://crt.sh/)
-  - Use Censys for analyze the JARM fingerprint to detect any possible related server which exposes the site [Censys](https://search.censys.io/search/language?resource=hosts&q=services.jarm.fingerprint%3A&sort=RELEVANCE&per_page=25&virtual_hosts=INCLUDE)
+- [ ] 📋 Analysis on SSL certificates
+  - Find site certificate metadata including CNs and matching identities using [crt.sh](https://crt.sh/)
+  - Use Censys for analyze the JARM fingerprint to detect any possible related server which exposes the site as well as find SSL metadata for IP addresses / servers [Censys](https://search.censys.io/search/language?resource=hosts&q=services.jarm.fingerprint%3A&sort=RELEVANCE&per_page=25&virtual_hosts=INCLUDE)
 
 #### Resources & Tools
 
