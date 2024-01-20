@@ -21,7 +21,8 @@ Following this checklist does not guarantee that you can unmask the owner of a w
 - [ ] ✍️ Are there any authors listed? 
     - If the site is Wordpress, try this wildcard search on Google to reveal the author list: 
     "https://yourwebsite.com/author/*/"
-
+    - If the site is Wordpress, active(!) and you are allowed to access it(!!), you can try getting the list of users accessing https://yourwebsite.com/wp-json/wp/v2/users . The list shows names, slugs and gravatar hashes (md5 of email address) for the authors of the site.
+      
 - [ ] 📫 Are there any e-mail addresses or contact information? 
   - If there are e-mail addresses, do those share the domain with the website?
   - Does the email show up in [haveibeenpwned.com](https://haveibeenpwned.com/)?
@@ -38,6 +39,7 @@ Following this checklist does not guarantee that you can unmask the owner of a w
 ##### Features and functionality 
 - [ ] 🗞 Does the website have a newsletter? 
   - Check for the physical postal address — required by the CAN-SPAM Act in the US
+  - If you are allowed to access the site(!) you can try registering to the newsletter and examining the headers of the email you received. Those headers can reveal the IP address of the server
 - [ ] 💸 Does the website collect donations? 
 - [ ] 🛒 Does the website have an e-commerce store? Or, does it sell products?
     - Try walking through the checkout process (without paying). Sometimes the real payee name is revealed just before you confirm the payment.  
@@ -109,7 +111,10 @@ Don't forget to check to see if the site has accounts on Youtube, Instagram, Red
   - Is it using Wordpress, Squarespace, something else?
 
 - [ ] ☁️ Where is it hosted? 
-  - Is it on Google Cloud, AWS, Cloudflare, something else? 
+  - Is it on Google Cloud, AWS, Cloudflare, something else?
+- [ ] What is the IP address of the website?
+  - Which other websites are hosted on the same IP address? (won't work if it is behind Coudflare, or on shared hosting with thousands of other sites)
+  - can check on [SecurityTrails](https://securitytrails.com)
 - [ ] 🪳 Are there any trackers present? 
   - You can check [Blacklight](https://themarkup.org/blacklight) to begin with. 
 - [ ] 🛍 How is the site monetised? 
