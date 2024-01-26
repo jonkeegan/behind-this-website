@@ -89,14 +89,7 @@ On the Facebook profile, go to Page Transparency:
 - [ ]  Is the page running any groups? 
 - [ ] 🗳 Has the page run any ads? Has the page run political ads? 
 - [ ] 🤖 Does Facebook flag any ‘related pages’ for the given page? Rely on Facebook’s algorithms to find connections! 
-​
-##### Twitter
-On Twitter, the account might be part of a pod or network that boosts each other. Using [en.whotwi.com](https://en.whotwi.com/), it’s worth checking:
-- [ ] 👯‍♀️ Who is the account is engaging with?
-- [ ] 🐦 What are the account’s tweeting patterns? 
-- [ ] #️⃣ What hashtags are associated with the account?
-- [ ] Who were the account's the first follows / followers? 
-    - Find this here: https://en.whotwi.com/  
+
 ​
 ##### Other platforms
 Don't forget to check to see if the site has accounts on Youtube, Instagram, Reddit, Github, 
