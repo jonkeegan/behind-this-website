@@ -1,8 +1,8 @@
 ### Who’s behind this website? A Checklist. 
 
 By Prianjana Bengani ([@acookiecrumbles](https://twitter.com/acookiecrumbles)) and Jon Keegan ([@jonkeegan](https://twitter.com/jonkeegan))
-Oringinally presented at IRE NICAR Conference - March 4, 2022
-Slides: [English](https://docs.google.com/presentation/d/1tRae65Eln072zLbbdIPyeJxt6I_JflRmEYH8cp4Xc84/edit?usp=sharing) | [Russian](https://docs.google.com/presentation/d/1TxynZrKKrYMvPFk3oxYMNRkx8fp0Gs_AhQufuVkKOOo/edit?usp=sharing) 
+Oringinally presented at IRE NICAR Conference - March 4, 2022 - Updated March 2024
+Slides: [English](https://bit.ly/nicar24-behind-this-website) | [Russian ](https://docs.google.com/presentation/d/1TxynZrKKrYMvPFk3oxYMNRkx8fp0Gs_AhQufuVkKOOo/edit?usp=sharing) (earlier version)
 
 *Thank you to Svetlana Borodina at Harriman Institute for the Russian translation!*
 
@@ -15,19 +15,45 @@ Following this checklist does not guarantee that you can unmask the owner of a w
 
 🌟 Strong recommendation: while running through this checklist, create a data diary — it can be a TextEdit doc, a Google Doc, just the Notes app, whatever. It is important to be able to retrace your steps. 
 
+
+#### Documenting and monitoring
+
+- Maintain a data diary with detailed notes about what you’ve looked at and how you got there
+- Try to create a timeline of the website and how it’s evolving over the course of your investigation
+- Use [Hunchly](https://www.hunch.ly/) or screen recordings to keep track of everything you’re doing
+ - Set up [Klaxon Cloud](https://www.muckrock.com/news/archives/2023/dec/04/klaxon-cloud-free-simple-alerts-when-a-webpage-updates/) or [VisualPing](https://visualping.io/) to be notified of any changes to a site 
+ - Use [GitHub Actions](https://docs.github.com/en/actions) and [ShotScraper](https://github.com/simonw/shot-scraper) for automated screenshots over time
+
+ - Archive sites consistently, and in some cases, use multiple archival services (archive.org, archive.is)
+- For public records or social media posts, take screenshots — some of them might not be archivable
+- Download videos lest they get taken down. Youtube videos: [yt-dlp](https://github.com/yt-dlp/yt-dlp)
+- Take screenshots with timestamps so you can monitor changes and gather receipts ([GoFullPage](https://gofullpage.com)). 
+- Capturing the full browser window with the URL field helps strengthen your evidence
+
+
+
 #### Site Content
 
 ##### Text
+- Check text fragments from articles, about-us pages, and privacy policies to see if they are unique to the site or duplicated [Use exact string matching on multiple search engines]
+
+- Run article text through numerous tools to see if the text is AI-generated, but note lots of false positives in these tools [[GPTZero](https://gptzero.me), [OpenAI’s Text Classifier](https://platform.openai.com/ai-text-classifier), [ContentScale’s AI Detector](https://contentatscale.ai/ai-content-detector/), [CopyLeaks](https://copyleaks.com/ai-content-detector)]
+- Browse site for any names (including bylines), email addresses, phone numbers, addresses, social media handles, and company names
+
 - [ ] ✍️ Are there any authors listed? 
     - If the site is Wordpress, try this wildcard search on Google to reveal the author list: 
     "https://yourwebsite.com/author/*/"
     - If the site is Wordpress, active(!) and you are allowed to access it(!!), you can try getting the list of users accessing https://yourwebsite.com/wp-json/wp/v2/users . The list shows names, slugs and gravatar hashes (md5 of email address) for the authors of the site.
+    - If the site is Wordpress, use [wpscan](https://wpscan.com/) to see the theme a Wordpress site uses as well as the authors, or use [built.with](built.with) for a technology profile. 
+    - Use Bellingcat’s [Name Variant Tool](https://bellingcat.github.io/name-variant-search/#gsc.tab=0) to find possible variations on any names.
       
-- [ ] 📫 Are there any e-mail addresses or contact information? 
+- [ ] 📫 Are there any e-mail addresses, phone numbers or contact information? 
   - If there are e-mail addresses, do those share the domain with the website?
-  - Does the email show up in [haveibeenpwned.com](https://haveibeenpwned.com/)?
+  - Use tools like [Epieos](https://epieos.com) and [haveibeenpwned.com](https://haveibeenpwned.com/) to reverse lookup emails and phone numbers: both will show you other services and platforms on which the email address or phone number might exist. [TrueCaller](https://www.truecaller.com) also serves as a reverse yellow pages. 
   - Check to see if there is a Gravatar associated with that address: 
     - https://en.gravatar.com/site/check/XXXXX@gmail.com
+- [ ] 🏢 Are there any companies listed?
+  - If you find company names, use [OpenCorporates](https://opencorporates.com) or [LinkedIn](https://www.linkedin.com) to see whether any personnel information is available. [OpenCorporates](https://opencorporates.com) also lets you search by addresses — so you can find who else shares the same office location! 
 - [ ] 🕑 What’s the server’s local time?
   - Look at the `datetime` attribute in links on Wordpress sites. GMT timestamp can reveal time zone based on GMT offset: 
     `<time class="updated" datetime="2022-03-04T10:21:40+06:00">March 4, 2022</time>`
@@ -35,6 +61,8 @@ Following this checklist does not guarantee that you can unmask the owner of a w
 - [ ] 📡 Does the website have an RSS feed?
   - Does the RSS feed give any additional information about authors / stories that aren't visible on the site? 
   - You can pull RSS article links into Google sheets using [IMPORTFEED](https://infoinspired.com/google-docs/spreadsheet/how-to-use-importfeed-function-in-google-sheets/)
+    
+
 ​
 ##### Features and functionality 
 - [ ] 🗞 Does the website have a newsletter? 
@@ -45,12 +73,19 @@ Following this checklist does not guarantee that you can unmask the owner of a w
     - Try walking through the checkout process (without paying). Sometimes the real payee name is revealed just before you confirm the payment.  
 ​
 ##### Links
-- [ ] 🔗 What domains does the website link to most? (Requires scraping)
+- [ ] 🔗 What domains does the website link to most?
+- Use [photon](https://github.com/s0md3v/Photon/wiki/Usage) or [urlscan.io](https://urlscan.io) to gather the outbound urls, (urls a site links to), as well as some high-level “intel” — who’s the site linking to the most? 
+- Analyze outbound links, especially those to merch stores, for affiliate links — who’s the affiliate? (Especially useful for health and wellness scams) 
 - [ ] ❤️ Who links to the domain most often? 
     - Google search operator: "link:yourwebsite.com"
-    - Check backlinks on [ahrefs.com](https://ahrefs.com/backlink-checker) for free 💵
+    - Find who’s linking to the website of interest consistently by using a backlink checker ([ahrefs.com](https://ahrefs.com/backlink-checker), [Moz](https://moz.com/link-explorer)) — what’s the relationship between the sites? 
+    
 - [ ]  Do the links have UTM codes? 
+
 ​
+
+
+
 ##### Photos, images and documents
 - [ ] 📸 Are there author photos? 
   - Use reverse image search to see if the same images appear elsewhere
@@ -78,6 +113,8 @@ If there are any social media profiles mentioned on the site, they are worth inv
 - [ ] 📣 Is the messaging different across platforms? 
 - [ ] 📇 Do they have completely distinct account names across social media platforms or are they more-or-less the same? 
   - Note: just because you find the same account name across platforms doesn’t necessarily mean they belong to the same person! 
+- [ ] 🔎 Use tools like [sherlock](https://github.com/sherlock-project/sherlock) and [Blackbird](https://github.com/p1ngul1n0/blackbird) that will scan multiple platforms to see if the same handle appears elsewhere — you’ll still have to confirm that it’s the same user and not just the same handle.
+
 
 
 ##### Facebook
@@ -97,8 +134,6 @@ Don't forget to check to see if the site has accounts on Youtube, Instagram, Red
 #### Infrastructure 
 - [ ] 🗄 Have you archived the website? (You always should!)
   - you can do this on archive.org or use their [browser extension](chrome-extension://fpnmgdkabkmnadcjpehmlllkndpkmiak/about.html).
-  - you can grab the whole website on Terminal with `wget`:
-   `wget -mpEk <yourwebsite.com>`
 
 - [ ] 🖥 What is the website using? 
   - Is it using Wordpress, Squarespace, something else?
@@ -114,7 +149,10 @@ Don't forget to check to see if the site has accounts on Youtube, Instagram, Red
   - Are there any affiliate links (Amazon, etc.)? 
 - [ ] 🧬 What are the various tracking identifiers, and are those shared with other domains?
   - Check Google Analytics, Facebook Pixel, Quantcast, NewRelic, etc. 
+  - Bellingcat’s [Wayback Analytics](https://github.com/bellingcat/wayback-google-analytics) tool looks at Internet Archive to extract old analytics IDs, which might be helpful in the present and can be used to aid the investigation.
   - Use tools like [builtwith](https://builtwith.com), [RiskIQ](https://www.riskiq.com/), or [Dnslytics](https://dnslytics.com/) to see if other domains share the same ID. 
+- [ ] Look at the network requests
+  - Use [FouAnalytics X-Ray](https://pagexray.fouanalytics.com/) to see all the network requests a site makes. 
 - [ ] Are there any relevant subdomains? 
   - Use Farsight Security [DNSDBScout](https://www.farsightsecurity.com/tools/dnsdb-scout/) Flexible.
   - Use [Virustotal](https://www.virustotal.com/gui/url/) to verify site relations like subodmains, given files and favicons
