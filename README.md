@@ -1,8 +1,21 @@
 ### Who’s behind this website? A Checklist. 
 
 By Prianjana Bengani ([@acookiecrumbles](https://twitter.com/acookiecrumbles)) and Jon Keegan ([@jonkeegan](https://twitter.com/jonkeegan))
-Oringinally presented at IRE NICAR Conference - March 4, 2022 - Updated March 2024
-Slides: [English](https://bit.ly/nicar24-behind-this-website) | [Russian ](https://docs.google.com/presentation/d/1TxynZrKKrYMvPFk3oxYMNRkx8fp0Gs_AhQufuVkKOOo/edit?usp=sharing) (earlier version)
+
+By Priyanjana Bengani
+Data Reporter
+Bloomberg
+Bluesky: @acookiecrumbles.bsky.social
+Mastodon: @acookiecrumbles@indieweb.social
+
+Jon Keegan
+Tech reporter / Data journalist
+Sherwood News
+Bluesky: @jonkeegan.com
+
+
+Oringinally presented at IRE NICAR Conference - March 4, 2022 - Updated March 2025
+Slides: [English](https://bit.ly/nicar25-behind-this-website) | [Russian ](https://docs.google.com/presentation/d/1TxynZrKKrYMvPFk3oxYMNRkx8fp0Gs_AhQufuVkKOOo/edit?usp=sharing) (earlier version)
 
 *Thank you to Svetlana Borodina at Harriman Institute for the Russian translation!*
 
